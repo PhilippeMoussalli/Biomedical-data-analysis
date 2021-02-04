@@ -21,7 +21,7 @@ The heart rate variability (aka Tachogram) was calculated as the distance betwee
 ## Results:
   
 **ECG waves and the corresponding tachogram **
-![image info](./figures/pan_tompkins.PNG)  
+![image info](./figures/pan_tompkins.png)  
   
 
 
