@@ -1,8 +1,4 @@
-%--------------------------------------------------------------------------
-%
-% EX 2.3 : Template matching and matched filtering
-%
-%--------------------------------------------------------------------------
+---------------------------------------
 
 %% 3.0 Initialization
 clearvars;
@@ -85,7 +81,7 @@ title('CCF with sig1 (Channel O2)')
 
 h_mf = ifft( conj( fft(template) ) );
 
-% notice that by taking the complex conjugate of the Fourier coefficients,
+%  by taking the complex conjugate of the Fourier coefficients,
 % the template gets flipped in the time domain
 
 % --- plot h_mf together with the template
@@ -117,10 +113,8 @@ xlabel('Time')
 ylabel('Amplitude (Normalized)')
 axis('tight')
 
-% --- notice that the normalized CCF and the matched filter output are
-% nearly similar. what is the major difference between the two?
 
-% --- from the peaks in the matched filter's output, compute the onsets of
+compute the onsets of
 % the eyeblinks via a thresholding procedure
 
 threshold = 0.5;
