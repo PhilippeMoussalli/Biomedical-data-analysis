@@ -6,8 +6,16 @@ This shape could appear in five regions: Upper right (UR), down right(DR), upper
   
 **Approach:** Epochs of ERPs are obtained multiple times by repeated applications of stimulus; since the background noise is random with zero mean, they can be averaged out by using the onset of the stimulus to allign the epochs. This approach is known as synchronized averaging and it helps to increase the signal to noise ratio (SNR) when the noise and the desired signal's frequency spectrum overlap significantly. The performance of the algorithm is evaluated by measuring the SNR and the average Euclidean distance between the original nosie ERP signals and the averaged signals: 
   
-**Resuls:**:
+**Resuls:**:  
+  
+Extracted template overalapped on all ERP epochs
+![image info](./figures/temp_overlap_ERP.PNG)  
+  
+Extracted templates visualized individually
 ![image info](./figures/Extracted_temp.PNG)
+
+SNR and Euclidean distance
+![image info](./figures/RESULTS.PNG)
 
 
 
