@@ -1,6 +1,4 @@
-%% EX1.2. Rejection of power-line interference from ECG signals
-% Read all comments before starting the exercise
-% Make sure your data files are in the same folder as your code
+
 
 %% Clear all previous results and load data
 
@@ -27,7 +25,7 @@ legend('ECG', 'Respiration')
 axis tight;
 hold off 
 % Plot the power spectrum of the original signal to verify which notch
-% filter you need : you can use the function fft() to calculate the power
+% filter is needed : let's use fft() to calculate the power
 % spectrum of the ECG signal
 hz= linspace(0, fs/2,slen/2);
 
