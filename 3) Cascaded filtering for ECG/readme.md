@@ -26,7 +26,7 @@ Develop a filter for the removel of the sources of noise mentined previously.
 **Derivative filter to remove baseline slow frequency drift from breathing**
 ![image info](./figures/derivative.PNG)
 
-**Comb filter for removal of powerline interfernce and its harmonics, this can be visualized through the powerspectrum of the original signal**
+**Comb filter for removal of powerline interfernce and its harmonics, this harmonics can be observed in the power spectrum of the original signal**
 ![image info](./figures/comb.PNG)  
   
 ![image info](./figures/comb_freq.PNG)
