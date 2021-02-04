@@ -6,12 +6,12 @@ Independent component analysis (ICA) is a signal processing tool used to separat
   where:
   *	**X:** is the mixture, that is the signal that is captured. Its rows are equal to the number of sensors that the signal is captured from.  
   * **A:** is the mixing matrix. Each column of the mixing matrix contains the mixing weights for a defined signal source.
-  * **S:** S is the source matrix. Each row of this source matrix contains an independent component that is to be estimated. The number of components that can be derived cannot exceed the number of available sensors.
+  * **S:** is the source matrix. Each row of this source matrix contains an independent component that is to be estimated. The number of components that can be derived cannot exceed the number of available sensors.
     
  Thus, the estimation of the sources can be simplified by the following equation: 
  **Y=WX** 
  
- Where Y is our signal estimation (Y≈S). and W is the inverse or pseudo-inverse of the mixing matrix A also known as the de-mixing matrix (W≈A<sup>-1</sup>). In other words, if we know the linear combination by which the sources have been mixed, we can recover the original sources present in the signal. The steps by which it achieves that are summarized as follows:  
+ Where **Y** is our signal estimation **(Y≈S)**. and **W** is the inverse or pseudo-inverse of the mixing matrix **A** also known as the de-mixing matrix  **(W≈A<sup>-1</sup>)**. In other words, if we know the linear combination by which the sources have been mixed, we can recover the original sources present in the signal. The steps by which it achieves that are summarized as follows:  
    
  **1) Whitening:** Before separating the independent components, the mixture X is whitened so that its different components are made uncorrelated to each other. Its aim is to recover the original shape of the data that was altered during the mixing process. This is usually done with projecting the data unto its principal components as to obtain components that are uncorrelated with one with the other (covariance matrix of unity). Whitening the data renders the estimation of the independent components much easier to derive.  
    
