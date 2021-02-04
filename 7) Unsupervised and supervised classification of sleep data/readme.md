@@ -32,10 +32,10 @@ relative power of different power bands within each epoch are derived: Delta (0.
 ![image info](./figures/DS2.PNG)  
   ### Unsupervised classification:
 **K_means with k=3**
-![image info](./figures/k_means_3.PNG)  
+![image info](./figures/K_means_3.PNG)  
   
 **K_means with k=5**
-![image info](./figures/k_means_5.PNG) 
+![image info](./figures/K_means_5.PNG) 
 
  ### Supervised classification:
  
