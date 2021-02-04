@@ -8,4 +8,6 @@ This shape could appear in five regions: Upper right (UR), down right(DR), upper
   
 **Resuls:**:
 
+![alt text] (https://github.com/PhilippeMoussalli/Biomedical-data-analysis/blob/main/1)%20Synchronized%20averaging/figures/Extracted_temp.PNG)
+
 
