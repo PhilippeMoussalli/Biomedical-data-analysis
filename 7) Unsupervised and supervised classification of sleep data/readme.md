@@ -42,8 +42,8 @@ relative power of different power bands within each epoch are derived: Delta (0.
  **Results of classification**  
    ![image info](./figures/results.PNG) 
      
-    **ROC curve for LDA**  
-   ![image info](./figures/results.PNG) 
+  **ROC curve for LDA**  
+   ![image info](./figures/ROC.PNG) 
  
 
 
