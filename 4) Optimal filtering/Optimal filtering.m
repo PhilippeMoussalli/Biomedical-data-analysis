@@ -1,8 +1,4 @@
-%--------------------------------------------------------------------------
-%
-% EX 2.1 : Frequency-domain and Wiener filtering of the ECG signal
-%
-%--------------------------------------------------------------------------
+--------------------------------------------------------
 
 %% 1.0 Initialization
 clearvars;
@@ -111,11 +107,9 @@ linkaxes(ax);
 fprintf('Go to the figure of the ECG signal and\nzoom in on a relevant portion of the signal\nin which you can see the desired waveforms.\n')
 %figure(fig_handle) % this will bring you back to the figure with the ECG signal
 %keyboard % this will pause the execution, giving you time to execute the tip below:
-% TIP: First, zoom in on a part of the ECG signal, in which you 
-% can view a proper heartbeat. When you are
-% ready, press F5 or click 'Run' to continue
 
-% once you have created a 'good' model, save it in a variable (e.g.
+
+% once we have created a 'good' model, we will save it in a variable (e.g.
 % 'model_signal.mat') that you can load into the workspace everytime 
 % after that
 
@@ -160,11 +154,9 @@ end
 fprintf('Go to the figure of the ECG signal and\nzoom in on a relevant portion of the signal\nin which you can observe the noise.\n')
 %figure(fig_handle) % this will bring you back to the figure with the ECG signal
 %keyboard % this will pause the execution, giving you time to execute the tip below:
-% TIP: First, zoom in on a part of the ECG signal, in which you 
-% can view several segments before making the selection. When you are
-% ready, press F5 or click 'Run' to continue
 
-% once you have found 'good' segments, save them in a variable (e.g.
+
+% once we have found 'good' segments, save them in a variable (e.g.
 % 'segments_noise.mat') that you can load into the workspace everytime 
 % after that
 
