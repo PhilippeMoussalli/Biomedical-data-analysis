@@ -11,7 +11,7 @@ Removal of powerline noise intergerence from ECG signal
 The power-line frequency component can be removed by using a notch filter, in which a zero is placed on the unit circle at the location corresponding to this frequency. The notch filter can be derived from the angular position of the required zero on the unit cirlce as given by:  
   
 
-![image info](./figures/notch.PNG)  
+![image info](./figures/notch.png)  
   
 ## Results:
   
