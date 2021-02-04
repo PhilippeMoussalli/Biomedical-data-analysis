@@ -4,7 +4,7 @@
 EEG data are often contaminated by artefact. On the most prevalent eyeblink artefacts are eyeblink artefacts which are high amplitude waves that return to baseline
 after one second of their onset:  
 
-![image info](./figures/EEG_eye.PNG) 
+![image info](./figures/EEG_eye.png) 
 Since those artefacts can distort the signal, it is important to find a method where they can be easily detected and removed.
   
 ## Goal:
@@ -18,9 +18,9 @@ peak of the output will correspond to the onset of the blink. This method is kno
 ## Results:
   
 **Template of the eye blink and its corresponding impulse response**
-![image info](./figures/results_matchfilter.PNG)  
+![image info](./figures/template.PNG)  
   
 **Result of applying the matched template filter to the signal. It should be noted that the convolution of impulse response with the frequency domain of the 
 signal is equivalent to a cross correlation of the original template with the original signal in time domain. The delay of the onset correspond to the 
 length of the template (300 ms)**
-![image info](./figures/template.PNG)
+![image info](./figures/results_matchfilter.png)
