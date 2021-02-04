@@ -9,8 +9,9 @@ noise process into account. The output is considered to be an estimate of a desi
 Apply the Wiener filter formulation in order to filter the ECG signal.
   
 ## Approach:
-The transfer funvtion of the wiener filter requires the extraction of the power spectrum of the desired signal (QRS complex, P and T waves of the ECG) and that of the noise: 
- ![image info](./figures/Wiener_theory.jpg) 
+The transfer funvtion of the wiener filter requires the extraction of the power spectrum of the desired signal (QRS complex, P and T waves of the ECG) and that of the noise:  
+  
+ ![image info](./figures/Wiener_theory.PNG)  
  The former is derived by first concatentating linear segments to provide P, QRS and T waves with amplitudes, duration and interval similar to those in noisy ECG signal. The power spectrum of
 the noise is derived from linear iso-electric segments of the ECG where a few segments are selected and their power spectrum is estimated and averaged.
   
