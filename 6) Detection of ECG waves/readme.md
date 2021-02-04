@@ -15,7 +15,7 @@ state of the patient.
 Implement an algorithm for detecting the QRS complex of an ECG signal and estimate the heart rate variability (HRV). 
   
 ## Approach:
-The implementations of this algorithm was inspired by the "Pan-Tompkins algorithm as illustrated in the Textbook *Biomedical signal processing, Rangaraj M. Rangayyan*.
+The implementations of this algorithm was inspired by the "Pan-Tompkins algorithm as illustrated in the Textbook *"Biomedical signal processing, Rangaraj M. Rangayyan"*.
 The heart rate variability (aka Tachogram) was calculated as the distance between the corresponding R peaks.
  
 ## Results:
