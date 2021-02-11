@@ -18,7 +18,9 @@ the noise is derived from linear iso-electric segments of the ECG where a few se
   
 ## Results:
   
-**Concatenated and interpolated desired signal** 
+**Concatenated and interpolated desired signal**   
+  
+  
  <img src="./figures/desired_signal.PNG" width="40%">  
    
 **Noise and desired signal PSD, transfer function of Wiener filter, signal before and after filtering**
